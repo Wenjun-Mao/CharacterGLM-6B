@@ -19,7 +19,7 @@ from transformers import AutoModel, AutoTokenizer
 
 # MODEL_PATH = os.environ.get('MODEL_PATH', 'thu-coai/CharacterGLM-6b')
 # TOKENIZER_PATH = os.environ.get("TOKENIZER_PATH", MODEL_PATH)
-MODEL_PATH = './CharacterGLM-6b'
+MODEL_PATH = './CharacterGLM-6B'
 TOKENIZER_PATH = MODEL_PATH
 
 with open('character.json', 'r', encoding='utf-8') as file:
